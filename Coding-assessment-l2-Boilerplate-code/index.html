@@ -1,0 +1,109 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embrace Sideboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </head>
+    <body>
+
+    <main>
+        <div class="page">
+        <div class="box">
+            <div class="image">
+                <li><img src="image/image1.jpg">
+                <ul id="active">
+                    <img id="productImage" src="image/image1.jpg" alt="Thumbnail1">
+                </ul>
+                </li>
+                <div class="thumbnail-images">
+                    <li><img src="image/image2.jpg">
+                        <ul>
+                            <img src="image/image2.jpg" alt="Thumbnail 1">
+                        </ul>
+                    </li>
+                    <li><img src="image/image3.jpg">
+                        <ul>
+                            <img src="image/image3.jpg" alt="Thumbnail 2">
+                        </ul>
+                    </li>
+                    
+                    <li><img src="image/image4.jpg">
+                        <ul>
+                            <img src="image/image4.jpg" alt="Thumbnail 3">
+                        </ul>
+                    </li>
+    
+                    <li><img src="image/image5.jpg">
+                        <ul>
+                            <img src="image/image5.jpg" alt="Thumbnail 4">
+                        </ul>
+                    </li>
+    
+                </div>
+
+            </div>
+        </div>
+        <div class="product-info">
+            <h1 class="vendor">Marmeto</h1>
+            <h2 class="title"> Embrace Sideboard</h2>
+            <div class="price-tag">
+                <p class="compare-at-price">$12999.00</p>
+                <span class="discount">35% Off</span>
+            </div>
+            <p class="sales-price">
+                <strike>$19999.00</strike>
+            </p>
+            <div class="size-options">
+            <p>Choose a Size:</p>
+                <input type="radio" onchange="selectedSize()" name="size" id="small">
+                <label for="small">Small</label>
+
+                <input type="radio" onchange="selectedSize()" name="size" id="medium">
+                <label for="medium">Medium</label>
+
+                <input type="radio" onchange="selectedSize()" name="size" id="large">
+                <label for="large">Large</label>
+
+                <input type="radio" onchange="selectedSize()" name="size" id="extra-large">
+                <label for="extra-large">Extra Large</label>
+
+                <input type="radio" onchange="selectedSize()" name="size" id="xxl">
+                <label for="xxl">XXL</label>
+            </div>
+            <div class="color-options">
+            <p>Choose Color:</p>
+                
+                    <button style="width: 3rem; height: 3rem; margin-right: 10px;    background-color: #ECDECC;border: none;" id="white"  onclick="icon(1)">
+                        <i id="myIcon1" class="fa fa-check" style="font-size:30px;color:white; display: none;"></i>
+                    </button>
+                    <button style="width: 3rem; height:3rem;padding: 5px; margin-right: 10px;     background-color: #BBD278;border: none;" id="black" onclick="icon(2)" >
+                        <i id="myIcon2"  class="fa fa-check" style="font-size:30px;color:white; display: none" ></i></button>
+                    <button style="width: 3rem; height:3rem;padding: 5px; margin-right: 10px;   background-color: #BBC1F8;border: none; " id="gray" onclick="icon(3)" >
+                        <i id="myIcon3"  class="fa fa-check" style="font-size:30px;color:white ; display: none" ></i></button>
+                    <button style="width: 3rem; height:3rem;padding: 5px; margin-right: 10px; background-color: #FFD3F8;border: none;" id="gray2" onclick="icon(4)">
+                        <i id="myIcon4"  class="fa fa-check" style="font-size:30px;color:white; display: none"></i></button>
+
+            </div>
+            <div>
+                <input class="quantityInput" type="number" value="1">
+                <button class="add-to-cart" onclick="addTocart()">Add To Cart</button>
+                <!-- <div class="cart-message" style="display: none;">
+                    <button onclick="addTocart()">added to cart</button>
+                </div> -->
+                <p id="currentColor" style="display: none;padding: 1rem;"></p>
+                <div class="product-description">
+                    <p>The Embrace Sideboard is a stylish storage solution with clean lines and a timeless look. It's crafted from premium materials for a combination of style, durability, and reliability. The top cloth is designed to provide superior protection and look great.  It fits seamlessly into any home decor.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+        
+    </main>
+    <script src="script.js"></script>
+    </body>
+    </html>
