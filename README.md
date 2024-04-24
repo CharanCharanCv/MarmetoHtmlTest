@@ -15,6 +15,6 @@ The product description provides information about the features and qualities of
 ## Deployment
 
 The project has been deployed on Netlify. You can view the live version.
-(https://6628a101b16bbd6beab7aff9--chipper-kitten-0c0dec.netlify.app/) this is the link to live version.
+(https://chipper-kitten-0c0dec.netlify.app/) this is the link to live version.
 
 Overall, this HTML file creates a visually appealing and informative product page for the Embrace Sideboard, facilitating user interaction and potential purchase on an e-commerce platform.
