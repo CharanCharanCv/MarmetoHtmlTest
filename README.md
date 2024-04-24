@@ -12,4 +12,8 @@ A message confirming the addition to the cart is displayed upon successful addit
 
 The product description provides information about the features and qualities of the Embrace Sideboard, highlighting its stylish design, premium materials, durability, and versatility in fitting into various home decor styles.
 
+## Deployment
+
+The project has been deployed on Netlify. You can view the live version.
+
 Overall, this HTML file creates a visually appealing and informative product page for the Embrace Sideboard, facilitating user interaction and potential purchase on an e-commerce platform.
