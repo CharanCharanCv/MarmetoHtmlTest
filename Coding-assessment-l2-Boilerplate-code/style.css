@@ -177,12 +177,11 @@ font-weight: 300;
       flex-direction: row;
   }
 
-  .image {
-      width: 40%;
+  .page{
+    flex-direction: column;
   }
-
-  .product-info {
-      width: 50%;
+  .box {
+      width: 100%;
   }
 }
 @media screen and (min-width: 1025px) {
